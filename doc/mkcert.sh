@@ -6,7 +6,7 @@
 umask 077
 OPENSSL=${OPENSSL-openssl}
 SSLDIR=${SSLDIR-/etc/ssl}
-OPENSSLCONFIG=${OPENSSLCONFIG-dovecot-openssl.cnf}
+OPENSSLCONFIG=${OPENSSLCONFIG-/etc/ssl/dovecot-openssl.cnf}
 
 CERTDIR=$SSLDIR/certs
 KEYDIR=$SSLDIR/private
